@@ -19,7 +19,11 @@ public class CorsConfig {
 
         // Permite acesso do front-end React
         config.setAllowedOrigins(
-                Arrays.asList("http://localhost:5173")
+                Arrays.asList(
+                        "http://localhost:5173",
+                        "http://127.0.0.1:5173",
+                        "https://passup-three.vercel.app"
+                )
         );
 
         // Metodos permitidos
