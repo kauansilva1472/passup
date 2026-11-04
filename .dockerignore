@@ -1,0 +1,10 @@
+# Rebuild the app inside the container.
+target/
+
+# Keep repository metadata and local IDE configuration out of the image.
+.git/
+.idea/
+
+# Never include local environment files or secrets.
+.env
+.env.*
