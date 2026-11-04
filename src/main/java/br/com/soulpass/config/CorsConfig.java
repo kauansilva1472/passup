@@ -22,7 +22,8 @@ public class CorsConfig {
                 Arrays.asList(
                         "http://localhost:5173",
                         "http://127.0.0.1:5173",
-                        "https://passup-three.vercel.app"
+                        "https://passup-three.vercel.app",
+                        "https://passup-git-feature-pivatti-pivattis-projects.vercel.app"
                 )
         );
 
